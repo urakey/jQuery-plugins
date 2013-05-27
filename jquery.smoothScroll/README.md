@@ -22,10 +22,11 @@
     $('.navigation').smoothScroll();
 
     // Examples:
-    $('.navigation').smoothScroll({
+    $('.navigation').find('a[href*=#]').smoothScroll({
       play: 20
     , duration: 300
     , easing: ''
+    , hash: false
     });
 
 Easing はプラグインに含まれていないので、使用する場合は必ず必要な Easing を JS ファイル内に書いてください。
@@ -55,13 +56,19 @@ Easing はプラグインに含まれていないので、使用する場合は�
       <th>duration</th>
       <td>Number</td>
       <td>500</td>
-      <td></td>
+      <td>アニメーションにかける時間。</td>
     </tr>
     <tr>
       <th>easing</th>
       <td>String</td>
       <td>-</td>
-      <td></td>
+      <td>イージングが必要な場合は指定。デフォルトはイージングなし。</td>
+    </tr>
+    <tr>
+      <th>hash</th>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>指定セレクタ内の `a[href*=#]` を `.find()` するかしないかを切り替えられる。`false` にした場合必ず自身でハッシュを含むセレクタを指定すること。</td>
     </tr>
   </tbody>
 </table>
@@ -69,4 +76,4 @@ Easing はプラグインに含まれていないので、使用する場合は�
 
 # Changelog
 
-まだないよ
+* 2013.05.27 hash オプションを追加

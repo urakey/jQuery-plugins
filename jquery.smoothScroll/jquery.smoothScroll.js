@@ -12,6 +12,7 @@
       play: 50
     , duration: 500
     , easing: ''
+    , hash: true
     }, options);
 
     /**
@@ -19,21 +20,35 @@
      */
     return this.each(function()
     {
-      var $target = $(this).find('a[href*=#]')
+      var $target
         , adjustment
         ;
 
+      if (options.hash === true) {
+        $target = $(this).find('a[href*=#]');
+      }
+      else {
+        $target = $(this);
+      }
+
       $target
         .on('click', function() {
+
+          if ($(this.hash)) {
             adjustment = $(this.hash).offset().top;
-            $('body, html')
-              .stop()
-              .animate({
-                scrollTop: adjustment + options.play
-              }
-              , options.duration
-              , options.easing
-              );
+          }
+          else {
+            return false;
+          }
+
+          $('body, html')
+            .stop()
+            .animate({
+              scrollTop: adjustment + options.play
+            }
+            , options.duration
+            , options.easing
+            );
         });
     });
 

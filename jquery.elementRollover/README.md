@@ -48,19 +48,19 @@ Easing はプラグインに含まれていないので、使用する場合は�
       <th>opacity</th>
       <td>Number</td>
       <td>0.7</td>
-      <td></td>
+      <td>ロールオーバー時の透過度。</td>
     </tr>
     <tr>
       <th>duration</th>
       <td>Number</td>
       <td>200</td>
-      <td></td>
+      <td>アニメーションにかける時間。</td>
     </tr>
     <tr>
       <th>easing</th>
       <td>String</td>
       <td>-</td>
-      <td></td>
+      <td>イージングが必要な場合は指定。デフォルトはイージングなし。</td>
     </tr>
   </tbody>
 </table>
