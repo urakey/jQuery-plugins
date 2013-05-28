@@ -12,7 +12,7 @@
       play: 50
     , duration: 500
     , easing: ''
-    , hash: true
+    , withHash: true
     }, options);
 
     /**
@@ -24,7 +24,7 @@
         , adjustment
         ;
 
-      if (options.hash === true) {
+      if (options.withHash === true) {
         $target = $(this).find('a[href*=#]');
       }
       else {

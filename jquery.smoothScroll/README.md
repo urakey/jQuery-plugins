@@ -26,7 +26,7 @@
       play: 20
     , duration: 300
     , easing: ''
-    , hash: false
+    , withHash: false
     });
 
 Easing はプラグインに含まれていないので、使用する場合は必ず必要な Easing を JS ファイル内に書いてください。
@@ -65,7 +65,7 @@ Easing はプラグインに含まれていないので、使用する場合は�
       <td>イージングが必要な場合は指定。デフォルトはイージングなし。</td>
     </tr>
     <tr>
-      <th>hash</th>
+      <th>withHash</th>
       <td>Boolean</td>
       <td>true</td>
       <td>指定セレクタ内の `a[href*=#]` を `.find()` するかしないかを切り替えられる。`false` にした場合必ず自身でハッシュを含むセレクタを指定すること。</td>
@@ -76,4 +76,5 @@ Easing はプラグインに含まれていないので、使用する場合は�
 
 # Changelog
 
+* 2013.05.28 hash -> withHash オプション名を変更。
 * 2013.05.27 hash オプションを追加
