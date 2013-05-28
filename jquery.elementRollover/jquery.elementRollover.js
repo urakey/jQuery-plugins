@@ -24,7 +24,7 @@
       $target
         .css({ cursor:'pointer' })
         .on({
-          'mouseover': function(){
+          'mouseenter': function(){
             $(this).stop().animate({
               opacity: options.opacity
             }
@@ -32,7 +32,7 @@
             , options.easing
             );
           }
-        , 'mouseout': function(){
+        , 'mouseleave': function(){
             $(this).stop().animate({
               opacity: 1
             }
