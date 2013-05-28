@@ -49,6 +49,7 @@
             , options.duration
             , options.easing
             );
+
         });
     });
 
