@@ -32,7 +32,7 @@ Easing はプラグインに含まれていないので、使用する場合は�
 * [jQuery Easing Plugin (version 1.3)](http://gsgd.co.uk/sandbox/jquery/easing/)
 
 
-# Options
+## Options
 
 <table>
   <thead>
@@ -66,6 +66,6 @@ Easing はプラグインに含まれていないので、使用する場合は�
 </table>
 
 
-# Changelog
+## Changelog
 
 まだないよ

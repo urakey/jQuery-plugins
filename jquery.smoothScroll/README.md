@@ -25,7 +25,7 @@
     $('.navigation').find('a[href*=#]').smoothScroll({
       play: 20
     , duration: 300
-    , easing: ''
+    , easing: 'easeOutQuad'
     , withHash: false
     });
 
@@ -34,7 +34,7 @@ Easing はプラグインに含まれていないので、使用する場合は�
 * [jQuery Easing Plugin (version 1.3)](http://gsgd.co.uk/sandbox/jquery/easing/)
 
 
-# Options
+## Options
 
 <table>
   <thead>
@@ -74,7 +74,7 @@ Easing はプラグインに含まれていないので、使用する場合は�
 </table>
 
 
-# Changelog
+## Changelog
 
 * 2013.05.28 hash -> withHash オプション名を変更。
 * 2013.05.27 hash オプションを追加
