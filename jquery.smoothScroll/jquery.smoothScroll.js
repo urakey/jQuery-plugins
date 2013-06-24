@@ -50,6 +50,8 @@
             , options.easing
             );
 
+          return false;
+
         });
     });
 
