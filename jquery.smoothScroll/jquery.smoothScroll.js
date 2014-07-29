@@ -30,11 +30,12 @@
         .on('click', function() {
 
           if ($(this.hash)) adjustment = $(this.hash).offset().top;
+          console.log(adjustment);
 
           $('body, html')
             .stop()
             .animate({
-              scrollTop: adjustment + options.play
+              scrollTop: adjustment - options.play
             }
             , options.duration
             , options.easing
