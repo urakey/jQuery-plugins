@@ -9,10 +9,10 @@
      * Option
      */
     options = $.extend({
-      play: 50
-    , duration: 500
-    , easing: ''
-    , withHash: true
+      play: 50,
+      duration: 500,
+      easing: '',
+      withHash: true
     }, options);
 
     /**
@@ -20,34 +20,23 @@
      */
     return this.each(function()
     {
-      var $target
-        , adjustment
-        ;
+      var $target    = $(this);
+      var adjustment = 0;
 
-      if (options.withHash === true) {
-        $target = $(this).find('a[href*=#]');
-      }
-      else {
-        $target = $(this);
-      }
+      if (options.withHash) $target = $(this).find('a[href*=#]');
 
       $target
         .on('click', function() {
 
-          if ($(this.hash)) {
-            adjustment = $(this.hash).offset().top;
-          }
-          else {
-            return false;
-          }
+          if ($(this.hash)) adjustment = $(this.hash).offset().top;
 
           $('body, html')
             .stop()
             .animate({
-              scrollTop: adjustment + options.play
-            }
-            , options.duration
-            , options.easing
+              scrollTop: adjustment - options.play
+            },
+            options.duration,
+            options.easing
             );
 
           return false;
@@ -55,6 +44,5 @@
         });
     });
 
-  }
-}
-(jQuery));
+  };
+})(jQuery);

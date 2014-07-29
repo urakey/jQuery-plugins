@@ -13,9 +13,9 @@
 
     // Format:
     $(selector).smoothScroll({
-      play: value
-    , duration: value
-    , easing: value
+      play: value,
+      duration: value,
+      easing: value
     });
 
     // Examples:
@@ -23,10 +23,10 @@
 
     // Examples:
     $('.navigation').find('a[href*=#]').smoothScroll({
-      play: 20
-    , duration: 300
-    , easing: 'easeOutQuad'
-    , withHash: false
+      play: 20,
+      duration: 300,
+      easing: 'easeOutQuad',
+      withHash: false
     });
 
 Easing はプラグインに含まれていないので、使用する場合は必ず必要な Easing を JS ファイル内に書いてください。
@@ -50,7 +50,7 @@ Easing はプラグインに含まれていないので、使用する場合は�
       <th>play</th>
       <td>Number</td>
       <td>50</td>
-      <td></td>
+      <td>スクロール位置に持たせる遊び（ウィンドウの上からの距離）</td>
     </tr>
     <tr>
       <th>duration</th>
@@ -76,5 +76,6 @@ Easing はプラグインに含まれていないので、使用する場合は�
 
 ## Changelog
 
+* 2014.07.28 refactoring
 * 2013.05.28 hash -> withHash オプション名を変更。
 * 2013.05.27 hash オプションを追加

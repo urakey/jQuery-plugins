@@ -1,4 +1,4 @@
-# jQuery.elementRollover.js
+# jQuery.changeOpacity.js
 
 > お勉強プラグインシリーズ。ロールオーバー時にふわっと透過度を変えるプラグイン。
 
@@ -11,20 +11,20 @@
 ## Usage
 
     // Format:
-    $(selector).elementRollover({
-      opacity: value
-    , duration: value
-    , easing: value
+    $(selector).changeOpacity({
+      opacity: value,
+      duration: value,
+      easing: value
     });
 
     // Examples:
-    $('.rollover').elementRollover();
+    $('.rollover').changeOpacity();
 
     // Examples:
-    $('.rollover').elementRollover({
-      opacity: .5
-    , duration: 300
-    , easing: ''
+    $('.rollover').changeOpacity({
+      opacity: .5,
+      duration: 300,
+      easing: ''
     });
 
 Easing はプラグインに含まれていないので、使用する場合は必ず必要な Easing を JS ファイル内に書いてください。
@@ -68,4 +68,4 @@ Easing はプラグインに含まれていないので、使用する場合は�
 
 ## Changelog
 
-まだないよ
+* 2014.07.29 jQuery.elementRollover.js -> jQuery.changeOpacity.js 名前を変更。

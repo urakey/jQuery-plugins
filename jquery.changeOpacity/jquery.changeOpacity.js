@@ -2,16 +2,16 @@
 {
   "use strict";
 
-  $.fn.elementRollover = function(options)
+  $.fn.changeOpacity = function(options)
   {
 
     /**
      * Option
      */
     options = $.extend({
-      opacity: .7
-    , duration: 200
-    , easing: ''
+      opacity: 0.7,
+      duration: 200,
+      easing: ''
     }, options);
 
     /**
@@ -27,22 +27,21 @@
           'mouseenter': function(){
             $(this).stop().animate({
               opacity: options.opacity
-            }
-            , options.duration
-            , options.easing
+            },
+            options.duration,
+            options.easing
             );
-          }
-        , 'mouseleave': function(){
+          },
+          'mouseleave': function(){
             $(this).stop().animate({
               opacity: 1
-            }
-            , options.duration
-            , options.easing
+            },
+            options.duration,
+            options.easing
             );
           }
         });
     });
 
-  }
-}
-(jQuery));
+  };
+})(jQuery);
