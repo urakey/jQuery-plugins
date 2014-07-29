@@ -13,9 +13,9 @@
 
     // Format:
     $(selector).smoothScroll({
-      play: value
-    , duration: value
-    , easing: value
+      play: value,
+      duration: value,
+      easing: value
     });
 
     // Examples:
@@ -23,10 +23,10 @@
 
     // Examples:
     $('.navigation').find('a[href*=#]').smoothScroll({
-      play: 20
-    , duration: 300
-    , easing: 'easeOutQuad'
-    , withHash: false
+      play: 20,
+      duration: 300,
+      easing: 'easeOutQuad',
+      withHash: false
     });
 
 Easing はプラグインに含まれていないので、使用する場合は必ず必要な Easing を JS ファイル内に書いてください。

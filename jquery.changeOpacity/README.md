@@ -12,9 +12,9 @@
 
     // Format:
     $(selector).changeOpacity({
-      opacity: value
-    , duration: value
-    , easing: value
+      opacity: value,
+      duration: value,
+      easing: value
     });
 
     // Examples:
@@ -22,9 +22,9 @@
 
     // Examples:
     $('.rollover').changeOpacity({
-      opacity: .5
-    , duration: 300
-    , easing: ''
+      opacity: .5,
+      duration: 300,
+      easing: ''
     });
 
 Easing はプラグインに含まれていないので、使用する場合は必ず必要な Easing を JS ファイル内に書いてください。
