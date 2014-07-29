@@ -2,7 +2,7 @@
 {
   "use strict";
 
-  $.fn.elementRollover = function(options)
+  $.fn.changeOpacity = function(options)
   {
 
     /**
