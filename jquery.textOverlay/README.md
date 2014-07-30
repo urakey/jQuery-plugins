@@ -1,4 +1,4 @@
-# jquery.imageTextOverlay.js
+# jquery.textOverlay.js
 
 > お勉強プラグインシリーズ。画像の上に文字がスライドインするのを簡単にするプラグイン。
 
