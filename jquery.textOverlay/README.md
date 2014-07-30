@@ -85,7 +85,7 @@
       <th>transition</th>
       <td>String</td>
       <td>true</td>
-      <td>transition を使うか（false にすると animateで動くので、IE9以下もOKになる）</td>
+      <td>transition を使うか<br>※IE9でも動かしたい場合に`false`にする（animateで動くようになります）</td>
     </tr>
     <tr>
       <th>duration</th>
@@ -103,10 +103,16 @@
 </table>
 
 
+## ToDo
+
+* IE8以下の背景色の対応をするかも
+
+
 ## Changelog
 
 まだないよ
 
 
 ## Other
+
 イージングはここで確認するのがおすすめ: [http://easings.net/ja](http://easings.net/ja)
