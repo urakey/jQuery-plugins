@@ -12,7 +12,7 @@
     // Format:
     $(selector).textOverlay({
       backgroundColor: '000000',
-      opacity: '.7',
+      opacity: 0.7,
       color: 'ffffff',
       direction: 'toT',
       tag: 'div',
@@ -28,7 +28,7 @@
     // Examples:
     $('.rollover').textOverlay({
       backgroundColor: '444444',
-      opacity: '.9',
+      opacity: 0.9,
       className: 'overlayText',
     });
 
@@ -53,8 +53,8 @@
     </tr>
     <tr>
       <th>opacity</th>
-      <td>String</td>
-      <td>.7</td>
+      <td>Number</td>
+      <td>0.7</td>
       <td>背景色の透過度</td>
     </tr>
     <tr>
@@ -72,7 +72,7 @@
     <tr>
       <th>tag</th>
       <td>String</td>
-      <td>&lt;div&gt;</td>
+      <td>div</td>
       <td>テキストをラップするタグ</td>
     </tr>
     <tr>
@@ -85,7 +85,7 @@
       <th>transition</th>
       <td>String</td>
       <td>true</td>
-      <td>transition を使うか<br>※IE9でも動かしたい場合に`false`にする（animateで動くようになります）</td>
+      <td>transition を使うか<br>※IE9でも動かしたい場合に`false`にする（`animate`で動くようになります）</td>
     </tr>
     <tr>
       <th>duration</th>
@@ -97,7 +97,7 @@
       <th>easing</th>
       <td>String</td>
       <td>ease</td>
-      <td>イージング<br>※cubic-bezier(0.42, 0, 0.58, 1.0) とかでもOK<br>※transition が false の場合は無視される</td>
+      <td>イージング<br>※`cubic-bezier(0.42, 0, 0.58, 1.0)`とかでもOK<br>※`transition`が`false`の場合は無視される</td>
     </tr>
   </tbody>
 </table>
@@ -110,7 +110,8 @@
 
 ## Changelog
 
-まだないよ
+* 2014.07.31 `opacity` オプションを String -> Number に変更
+* 2014.07.31 `switch`に`default`を設定
 
 
 ## Other
