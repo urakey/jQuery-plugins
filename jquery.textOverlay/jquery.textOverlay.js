@@ -10,7 +10,7 @@
     // MEMO: HEX値を#付きで渡せるようにするかどうか検討中
     options = $.extend({
       backgroundColor: '000000',
-      opacity: '.7',
+      opacity: 0.7,
       color: 'ffffff',
       direction: 'toT',
       tag: 'div',
@@ -115,7 +115,7 @@
     }
 
     // テキストレイヤーの初期位置を設定
-   function　initTextPosition(options, width, height) {
+    function　initTextPosition(options, width, height) {
       var style = {};
 
       switch(options.direction) {
@@ -131,6 +131,8 @@
         case 'toL':
           style.left = '-' + width + 'px';
           break;
+        default:
+          style.top = height + 'px';
       }
       return style;
     }
@@ -148,6 +150,8 @@
         case 'toL':
           style.left = 0;
           break;
+        default:
+          style.top = 0;
       }
       return style;
     }
