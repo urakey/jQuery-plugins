@@ -4,7 +4,7 @@
 
 ## Demo
 
-準備中
+[準備中 // とりあえずここにあります](http://akey.bitbucket.org/)
 
 
 ## Usage
