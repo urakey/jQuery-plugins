@@ -84,7 +84,7 @@
     </tr>
     <tr>
       <th>transition</th>
-      <td>String</td>
+      <td>Boolean</td>
       <td>true</td>
       <td>transition を使うか<br>※IE9でも動かしたい場合に`false`にする（`animate`で動くようになります）</td>
     </tr>
@@ -111,6 +111,8 @@
 
 ## Changelog
 
+* 2014.11.03 Demo を CodePen に設置
+* 2014.11.03 jQuery.textOverlay.js -> jQuery.akTextOverlay.js 名前を変更。
 * 2014.07.31 `opacity` オプションを String -> Number に変更
 * 2014.07.31 `switch`に`default`を設定
 
@@ -118,9 +120,3 @@
 ## Other
 
 イージングはここで確認するのがおすすめ: [http://easings.net/ja](http://easings.net/ja)
-
-
-## Changelog
-
-* 2014.11.03 Demo を CodePen に設置
-* 2014.11.03 jQuery.textOverlay.js -> jQuery.akTextOverlay.js 名前を変更。
