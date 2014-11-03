@@ -1,10 +1,11 @@
-# jquery.textOverlay.js
+# jquery.akTextOverlay.js
 
 > お勉強プラグインシリーズ。画像の上に文字がスライドインするのを簡単にするプラグイン。
 
+
 ## Demo
 
-[準備中 // とりあえずここにあります](http://akey.bitbucket.org/)
+[CodePen](http://codepen.io/akey/pen/dinbJ)
 
 
 ## Usage
@@ -117,3 +118,9 @@
 ## Other
 
 イージングはここで確認するのがおすすめ: [http://easings.net/ja](http://easings.net/ja)
+
+
+## Changelog
+
+* 2014.11.03 Demo を CodePen に設置
+* 2014.11.03 jQuery.textOverlay.js -> jQuery.akTextOverlay.js 名前を変更。

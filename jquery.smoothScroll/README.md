@@ -2,9 +2,10 @@
 
 > お勉強プラグインシリーズ。スムーススクロールプラグイン。
 
+
 ## Demo
 
-[準備中 // とりあえずここにあります](http://akey.bitbucket.org/)
+[CodePen](http://codepen.io/akey/pen/DyfIK)
 
 
 ## Usage
@@ -76,6 +77,7 @@ Easing はプラグインに含まれていないので、使用する場合は�
 
 ## Changelog
 
+* 2014.11.03 Demo を CodePen に設置
 * 2014.07.28 refactoring
 * 2013.05.28 hash -> withHash オプション名を変更。
 * 2013.05.27 hash オプションを追加

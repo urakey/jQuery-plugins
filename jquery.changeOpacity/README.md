@@ -5,7 +5,7 @@
 
 ## Demo
 
-[準備中 // とりあえずここにあります](http://akey.bitbucket.org/)
+[CodePen](http://codepen.io/akey/pen/KdCle)
 
 
 ## Usage
@@ -68,4 +68,5 @@ Easing はプラグインに含まれていないので、使用する場合は�
 
 ## Changelog
 
+* 2014.11.03 Demo を CodePen に設置
 * 2014.07.29 jQuery.elementRollover.js -> jQuery.changeOpacity.js 名前を変更。
