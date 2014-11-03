@@ -1,3 +1,10 @@
+/*!
+ * jQuery.smoothScroll
+ * Version: 0.1
+ *
+ * Copyright(c) 2014 akey <akey@chocolateboard.net>
+ * MIT Licensed
+ */
 (function($)
 {
   "use strict";
