@@ -5,7 +5,7 @@
 
 ## Demo
 
-[CodePen](http://codepen.io/akey/pen/dinbJ)
+[CodePen](http://codepen.io/akey/pen/gEqcL)
 
 
 ## Usage
