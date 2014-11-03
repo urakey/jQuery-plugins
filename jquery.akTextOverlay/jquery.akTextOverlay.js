@@ -1,8 +1,15 @@
+/*!
+ * jQuery.akTextOverlay
+ * Version: 0.1
+ *
+ * Copyright(c) 2014 akey <akey@chocolateboard.net>
+ * MIT Licensed
+ */
 (function($)
 {
   'use strict';
 
-  $.fn.textOverlay = function(options) {
+  $.fn.akTextOverlay = function(options) {
 
     /**
      * Option - defaults
