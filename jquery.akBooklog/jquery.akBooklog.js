@@ -71,16 +71,15 @@
 
       $.each(books, function(index, book){
         title  = book.title;
-        asin   = book.asin;
         author = book.author;
         link   = book.url;
         image  = book.image;
         imageW = book.width;
         imageH = book.height;
+        asin   = book.asin;
 
-        if (asin) {
-          link = 'http://amazon.jp/exec/obidos/ASIN/' + asin + '/';
-          if (options.amazon_id) link = link + options.amazon_id + '/';
+        if (options.amazon_id && asin) {
+          link = 'http://amazon.jp/exec/obidos/ASIN/' + asin + '/' + options.amazon_id + '/';
         }
 
         // MEMO: DOM は自由に作れたほうがいい！あとで検討する
