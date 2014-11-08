@@ -83,7 +83,6 @@
       var style = {
         width: '100%',
         height: '100%',
-        padding: '10px', // TODO: デフォルトで指定しないほうがいいかも。要検討。
         position: 'absolute',
         top: '0',
         left: '0',
