@@ -43,20 +43,20 @@
       $.ajax({
         type : 'GET',
         url  : 'http://api.booklog.jp/json/' + options.booklog_id,
-        dataType:   'jsonp',
+        dataType: 'jsonp',
         data : {
           category : options.booklog_category,
           status   : options.booklog_status,
           rank     : options.booklog_rank,
           count    : options.booklog_count
         },
-        success: function(data) {
-          appendHtml($dom, formatHtml(data, options));
-          d.resolve();
-        },
-        error: function(e) {
-          console.log(e);
-        }
+      })
+      .done(function(data) {
+        appendHtml($dom, formatHtml(data, options));
+        d.resolve();
+      })
+      .fail(function(e) {
+        console.log(e);
       });
       return d.promise();
     }
