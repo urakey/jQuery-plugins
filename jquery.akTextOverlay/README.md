@@ -116,9 +116,10 @@
 
 ## Changelog
 
+* 2014.11.08 スライドインするレイヤーの不必要なデフォルトスタイルを削除
 * 2014.11.03 Demo を CodePen に設置
 * 2014.11.03 jQuery.textOverlay.js -> jQuery.akTextOverlay.js 名前を変更。
-* 2014.07.31 `opacity` オプションを String -> Number に変更
+* 2014.07.31 `opacity`オプションを String -> Number に変更
 * 2014.07.31 `switch`に`default`を設定
 
 
