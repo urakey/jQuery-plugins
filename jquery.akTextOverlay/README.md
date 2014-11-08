@@ -36,7 +36,7 @@
 `$(selector)` 内の `&lt;img&gt;` タグ上にテキストを表示するレイヤーをスライドインします。
 スライドインするテキストは `data-text` 属性内に記述します。
 
-     <img data-text="スライドインさせる文字列>
+     <img data-text="スライドインさせる文字列">
 
 
 ## Options
