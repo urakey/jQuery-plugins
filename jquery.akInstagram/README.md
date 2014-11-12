@@ -65,13 +65,13 @@ JS ファイル内に `access_token` を直接記述することは推奨でき�
       <th>request_url</th>
       <td>String</td>
       <td>-</td>
-      <td>サーバサイドで「アクセストークンを使ってデータを取得する処理をしてくれる」ファイルの URL<br>※JS ファイルに直接 `access_token` を直書きして使用する場合は必要なし。</td>
+      <td>サーバサイドで「アクセストークンを使ってデータを取得する処理をしてくれる」ファイルの URL<br>※JS ファイルに直接 <code>access_token</code> を直書きして使用する場合は必要なし。</td>
     </tr>
     <tr>
       <th>access_token</th>
       <td>String</td>
       <td>-</td>
-      <td>アクセストークン<br>※ `request_url` を指定している場合は必要なし。</td>
+      <td>アクセストークン<br>※ <code>request_url</code> を指定している場合は必要なし。</td>
     </tr>
     <tr>
       <th>link</th>
