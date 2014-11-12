@@ -76,13 +76,14 @@
       var count   = options.count;
       var books   = data.books;
       var htmlTag = options.tag;
-      var caption, link, image, imageUrl, imageW, imageH, htmlSrc;
+      var item, caption, link, image, imageUrl, imageW, imageH, htmlSrc;
       var newCommers = [];
 
       if (items.length <= 0) return;
       if (items.length < count) count = items.length;
 
-      $.each(items, function(index, item){
+      for (var i = 0, length = count; i < length; i++) {
+        item     = items[i];
         caption  = item.caption;
         link     = item.link;
         image    = item.images[options.size];
