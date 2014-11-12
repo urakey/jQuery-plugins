@@ -103,7 +103,7 @@
         htmlSrc += '</' + htmlTag + '>';
 
         newCommers.push(htmlSrc);
-      });
+      }
 
       return newCommers;
     }
