@@ -21,7 +21,7 @@
       booklog_rank: 0,
       booklog_count: 100,
       amazon_id: '',
-      tag: 'p',
+      tag: 'div',
       className: ''
     }, options);
 

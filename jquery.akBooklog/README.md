@@ -18,7 +18,7 @@
       booklog_rank: 0,
       booklog_count: 100,
       amazon_id: YOUR_AMAZON_AFFILIATE_ID,
-      tag: 'p',
+      tag: 'div',
       className: ''
     });
 
@@ -110,7 +110,7 @@
     <tr>
       <th>tag</th>
       <td>String</td>
-      <td>true</td>
+      <td>div</td>
       <td>booklog アイテムをラップするタグ</td>
     </tr>
     <tr>
@@ -130,4 +130,4 @@
 
 ## Changelog
 
-まだないよ
+* 2014.11.12 デフォルトのタグを `<div>` に変更
